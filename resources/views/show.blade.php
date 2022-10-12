@@ -8,7 +8,7 @@
             <div class="col-log-8">
                <form class="row g-3" action="{{url('/update/'.$data->id)}}" method="POST" enctype="multipart/form-data">
                   @csrf
-                  <div class="col-md-6">
+                  <div class="col-md-4">
                      <label for="nama" class="form-label">Judul Buku *</label>
                      <input type="text" name="judul_buku" class="form-control" placeholder="Judul Buku" autocomplete="on" value="{{$data->judul_buku}}">
                      {{-- Menampilkan error Validasi--}}
@@ -19,7 +19,7 @@
                      @endif
                   </div>
 
-                  <div class="col-md-6">
+                  <div class="col-md-4">
                      <label for="name" class="form-label">Pengarang *</label>
                      <input type="text" name="pengarang" class="form-control" placeholder="Pengarang" autocomplete="on" value="{{$data->pengarang}}">
                      {{-- Menampilkan Validasi--}}
@@ -41,7 +41,7 @@
                      @endif
                   </div>
 
-                  <div class="col-4">
+                  <div class="col-3">
                      <label for="nama" class="form-label">ISBN *</label>
                      <input type="number" name="ISBN" class="form-control" placeholder="No ISBN" autocomplete="on" value="{{$data->ISBN}}">
                      <div class="col-auto">
@@ -57,10 +57,10 @@
                      @endif
                   </div>
 
-                  <div class="col-4">
+                  <div class="col-3">
                      <label for="tahun_terbit" class="form-label">Tahun Terbit Buku *</label>
                      <select type="text" id="tahun_terbit" name="tahun_terbit" class="form-select" autocomplete="on" value="{{$data->tahun_terbit}}">
-                        <option value=""> Tahun terbit</option>
+                           
                         <option value="2022">2022</option>  <option value="2021">2021</option>
                         <option value="2020">2020</option>  <option value="2019">2019</option>
                         <option value="2018">2018</option>  <option value="2017">2017</option>

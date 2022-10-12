@@ -157,16 +157,16 @@ return [
             'rule-name' => 'custom-message',
         ],
         'judul_buku' => [
-            'required' => 'Judul buku tidak boleh kosong !!!'
+            'required' => 'Minimal di isi ngab !!!'
         ],
         'pengarang' => [
-            'required' => 'Nama pengarang tidak boleh kosong !!!'
+            'required' => 'Minimal di isi ngab !!!'
         ],
         'penerbit' => [
-            'required' => 'Nama penerbit tidak boleh kosong !!!'
+            'required' => 'Minimal di isi ngab !!!'
         ],
         'ISBN' => [
-            'required' => 'ISBN tidak boleh kosong !!!'
+            'required' => 'Minimal di isi ngab !!!'
         ],
         'tahun_terbit' => [
             'required' => 'Tahun tidak boleh kosong !!!'
